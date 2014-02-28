@@ -1,0 +1,9 @@
+DON'T PANIC
+
+Fix SSL is not trust after import into chrome
+
+1. Open chrome SSL management window
+2. Import goagent's CA.cert
+3. click "Authorities" tab
+4. find "Goagent", edit to trust it.
+5. restart chrome
